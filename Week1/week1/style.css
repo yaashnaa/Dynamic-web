@@ -1,0 +1,91 @@
+body {
+  background-color: #eeeae7;
+}
+.big-flex {
+  background-color: #f7f5f4;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5vh;
+  border: 2px solid black;
+  padding: 2vh;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.img-flex {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+img {
+  flex: 1;
+  height: 50vh;
+  width: 30vw;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.recipe-flex {
+  display: flex;
+  flex-direction: column;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 4vh;
+}
+
+.title {
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  z-index: 9999;
+  height: fit-content;
+  width: 100%;
+  background-color: #ffffff;
+  flex: 1;
+  font-size: 2rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-left: -4vh;
+  padding: 2vh;
+}
+
+.sub-heading {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2vh;
+  font-size: 1.2rem;
+}
+
+.directions {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+}
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+}
+
+.ing-recipe {
+  display: flex;
+  gap: 5vh;
+}
+
+.title-1 {
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+}
