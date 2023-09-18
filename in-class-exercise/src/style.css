@@ -1,0 +1,86 @@
+.app{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+body {
+    background-color: #eeeae7;
+  }
+.recipe-box{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    /* align-items: center; */
+    width: 80%;
+    gap: 60px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    padding: 1rem;
+
+}
+
+/* .recipe-img{
+    flex: 1;
+    width: 10vw;
+    height: 10vh;
+} */
+
+.title{
+    font-size: 4rem;
+    font-family: "DM Sans", sans-serif;
+
+}
+.desc{
+    font-size: 2.5rem;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+
+h3{
+    font-size: 2rem;
+    font-family: "DM Sans", sans-serif;
+
+}
+img{
+    flex: 1;
+    width: 50%;
+  
+}
+
+.recipe-details{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe{
+    display: flex;
+}
+
+.border{
+    border: 2px black solid;
+    height: 100%;
+    padding: 2rem;
+    width: fit-content;
+}
+
+li{
+    font-size: 1.3rem;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Work Sans", sans-serif;
+    margin: 0.7rem;
+}
+
+.title-1 {
+    font-size: 2.3rem;
+    margin-top: 4vh;
+    font-family: "Oswald", sans-serif;
+    color: #e4a802;
+  }
+  
