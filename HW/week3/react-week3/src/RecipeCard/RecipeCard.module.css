@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&family=Open+Sans:wght@300;400&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.card {
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  width: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.recipe_img {
+  width: 30%;
+  height: auto;
+}
+
+.recipe_info {
+  margin-left: 1.5rem;
+}
+
+.recipe_title,
+.list_title {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+}
+
+.recipe_title {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  border-bottom: 0.25rem solid #48b2ff;
+}
+
+.list_title {
+  margin: 0.5rem 0;
+  font-size: 1.625rem;
+  color: #48b2ff;
+}
+
+.recipe_details {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5rem;
+}
+
+.ingredients_list {
+  width: 40%;
+}
+
+.ingredients_list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list_item {
+  display: flex;
+  margin-bottom: 0.75rem;
+}
+
+.list_item span {
+  display: block;
+}
+
+.measure {
+  width: 25%;
+  margin-right: 2rem;
+}
+
+.instructions_list {
+  width: 55%;
+}
+
+.instructions_list ol {
+  list-style-type: none;
+  padding-left: 0;
+  /* padding-left: 1.25rem; */
+}
+
+.ratings_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.heart {
+  display: inline-block;
+  color: #ce1d1d;
+  fill: #ce1d1d;
+}
+
+.navbar {
+  height: 3vh;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: azure;
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  color: #3b94d3;
+}
+
+.navitems {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5rem;
+  margin-right: 2%;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.three h1 {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  padding-bottom: 15px;
+  position: relative;
+}
+.three h1:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 55px;
+  background-color: #111;
+}
+.three h1:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  height: 1px;
+  width: 95%;
+  max-width: 255px;
+  background-color: #333;
+}
+
+.two {
+  text-align: center;
+}
+.two h1 {
+  text-transform: capitalize;
+}
+.two h1:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 2px;
+  content: "";
+  background-color: #c50000;
+}
+
+.two h1 span {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 3em;
+  padding-left: 0.25em;
+  color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 10px;
+}
+.alt-two h1 {
+  text-align: center;
+}
+.alt-two h1:before {
+  left: 50%;
+  margin-left: -30px;
+}
+
+
+
+.six h1 {
+  text-align: center;
+  color: #222;
+  font-size: 4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  word-spacing: 1px;
+  letter-spacing: 2px;
+  color: #c50000;
+}
+.six h1 div {
+  line-height: 2em;
+  padding-bottom: 15px;
+  text-transform: none;
+  font-size: 0.7em;
+  font-weight: normal;
+  font-style: italic;
+  font-family: "Playfair Display", "Bookman", serif;
+  color: #999;
+  letter-spacing: -0.005em;
+  word-spacing: 1px;
+  letter-spacing: none;
+}
+.six h1:after{
+  position: absolute;
+  left: 0;
+  /* bottom: 0; */
+  /* width: 45px; */
+  height: 4px;
+  content: "";
+  right: 45px;
+  margin: auto;
+  background-color: #ccc;
+}
+.six h1:before {
+  background-color: #d78b8b;
+  left: 45px;
+  width: 90px;
+}
+
+
+button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
